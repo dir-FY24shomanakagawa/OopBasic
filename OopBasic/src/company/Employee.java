@@ -6,7 +6,8 @@ public abstract class Employee implements Workable {
     protected final Department department;
     private final String position;
     private final int employeeId;
-
+    
+    //★コンストラクタはクラス名と同じにする、★戻り値はいらない★コンストラクタはメソッド
     public Employee(String name, Department department, String position, int employeeId) {
         
         this.name = name;
